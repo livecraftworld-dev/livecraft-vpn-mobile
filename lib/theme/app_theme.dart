@@ -10,6 +10,7 @@ class LiveCraftTheme {
   static const Color primary = Color(0xFF10B981);      // Emerald Neon
   static const Color primaryHover = Color(0xFF34D399);
   static const Color accent = Color(0xFF10B981);       // Neon Accent
+  static const Color gold = Color(0xFF10B981);         // Emerald accent for buttons/focus
   static const Color activeGreen = Color(0xFF10B981);  // Connected Emerald
   static const Color activeGlow = Color(0x3310B981);
   
