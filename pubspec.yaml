@@ -1,0 +1,25 @@
+name: livecraft_vpn
+description: "Live Craft VPN - Corporate High-Speed Mobile Client"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_singbox_client: ^1.1.0
+  shared_preferences: ^2.2.2
+  installed_apps: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/LiveCraft_Logo.png
+    - assets/LiveCraft_Logo_Full.png
